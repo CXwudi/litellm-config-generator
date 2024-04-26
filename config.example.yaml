@@ -1,0 +1,25 @@
+io:
+  input-template: "litellm-template.yaml"
+  # relative path to the output file
+  output-file:
+  output-model-list-file:
+  output-model-list-json:
+
+config:
+  # llm provider specific settings
+  llm:
+    openai:
+      api-key:
+      exclude-models:
+    google:
+      api-key:
+    mistral:
+      api-key:
+    cohere:
+      api-key:
+    copilot:
+      api-base: http://copilot-gpt4-service:4000/v1   # This must match the docker compose file for copilot-gpt4-service
+    openrouter:
+      exclude-models: ['openai/gpt-4-32k'] # exclude this expensive model from being abuse
+    togetherai:
+      exclude-models: 

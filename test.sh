@@ -1,0 +1,1 @@
+python -m unittest config_generator.test
