@@ -12,29 +12,29 @@ Ensure you have a recent Python 3.x installed on your system.
 
 1. First, create a virtual environment:
 
-```sh
-python3 -m venv .venv
-```
+    ```sh
+    python3 -m venv .venv
+    ```
 
 2. Activate the virtual environment:
 
-On Windows:
+    On Windows:
 
-```sh
-.venv\Scripts\activate
-```
+    ```sh
+    .venv\Scripts\activate
+    ```
 
-On Unix or MacOS:
+    On Unix or MacOS:
 
-```sh
-source .venv/bin/activate
-```
+    ```sh
+    source .venv/bin/activate
+    ```
 
 3. Install the required packages:
 
-```sh
-pip install -r requirements.txt
-```
+    ```sh
+    pip install -r requirements.txt
+    ```
 
 ### 2. Configuration
 
