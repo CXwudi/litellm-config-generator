@@ -63,6 +63,7 @@ So far we have the following `AbstractLLMPoper` implementations:
 | Groq | `config_generator/src/component/llm_poper/groq.py` | Yes |
 | [GitHub Copilot](https://gitlab.com/aaamoon/copilot-gpt4-service) | `config_generator/src/component/llm_poper/copilot.py` | No |
 | TogetherAI | `config_generator/src/component/llm_poper/togetherai.py` | Yes |
+| OpenRouter | `config_generator/src/component/llm_poper/openrouter.py` | Yes |
 
 You may be interested in modifying the template in each `AbstractLLMPoper` implementation to suit your needs.
 
