@@ -8,7 +8,11 @@ Just provide a LiteLLM Proxy configuration file in YAML with `model_list` remove
 
 ### 1. Environment Setup
 
-Ensure you have a recent Python 3.x installed on your system.
+If you have both VSCode and Docker installed, you can use the `.devcontainer` directory to setup a dev container. It contains all the necessary Python related plugins to help you modify this project. (It is also the environment I used to develop this project)
+
+Otherwise, installed a recent Python 3.x on your system.
+
+Follow the steps below to setup the environment:
 
 1. First, create a virtual environment:
 
@@ -45,8 +49,6 @@ Fill in the `config.yaml` file with your own configuration.
 For the `litellm-template.yaml`, this is where you put your LiteLLM configuration file with `model_list` removed.
 
 ### 3. Modify the template to suit your needs
-
-This project contains a `.devcontainer` directory which can be used to quickly setup a dev environment with VSCode and Docker, it contains all the necessary Python related plugins to help you modify this project. (It is also the environment I used to develop this project)
 
 The `config_generator/src/component/model_poper.py` file contains the logic to generate the `model_list`. It delegates the generation to different `AbstractLLMPoper` implementation defined in the `config_generator/src/component/llm_poper` directory.
 
