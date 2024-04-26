@@ -10,7 +10,7 @@ config:
   llm:
     openai:
       api-key:
-      exclude-models:
+      exclude-models: # ['gpt-4', 'gpt-4-32k', 'gpt-4-0613'] # exclude this expensive model from being abuse
     google:
       api-key:
     mistral:
