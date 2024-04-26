@@ -8,6 +8,7 @@ litellm_settings:
   failure_callback:
   - langfuse
   add_function_to_prompt: true
+  max_tokens: 32000 # litellm default to 256 ???
 general_settings:
   master_key: <your master_key>
 environment_variables:

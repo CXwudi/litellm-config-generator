@@ -1,9 +1,13 @@
 io:
+  # all files are relative path to the root of the project, not the config_generator folder
   input-template: "litellm-template.yaml"
-  # relative path to the output file
   output-file:
   output-model-list-file:
   output-model-list-json:
+  # input-template: "litellm-template.yaml"
+  # output-file: "litellm.yaml"
+  # output-model-list-file: "model-list.txt"
+  # output-model-list-json: "model-list.json"
 
 config:
   # llm provider specific settings
@@ -18,7 +22,7 @@ config:
     cohere:
       api-key:
     copilot:
-      api-base: http://copilot-gpt4-service:4000/v1   # This must match the docker compose file for copilot-gpt4-service
+      api-base: # http://copilot-gpt4-service:4000/v1
     openrouter:
       exclude-models: ['openai/gpt-4-32k'] # exclude this expensive model from being abuse
     togetherai:
