@@ -2,6 +2,8 @@
 
 A helper python program to generate a configuration file for [LiteLLM](https://litellm.vercel.app/docs/proxy/quick_start) proxy.
 
+![banner](banner.png)
+
 Just provide a LiteLLM Proxy configuration file in YAML with `model_list` removed, and then run this program with the following instruction, to get the `model_list` filled up with templates.
 
 ## Usage
