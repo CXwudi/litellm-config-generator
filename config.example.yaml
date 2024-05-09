@@ -21,6 +21,8 @@ config:
       api-key:
     cohere:
       api-key:
+    groq:
+      api-key: 
     copilot:
       api-base: # http://copilot-gpt4-service:4000/v1
     openrouter:
