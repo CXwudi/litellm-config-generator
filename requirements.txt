@@ -4,3 +4,4 @@ python-configuration[toml,yaml]
 requests
 beautifulsoup4
 pytest
+pyinstaller

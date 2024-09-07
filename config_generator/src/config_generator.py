@@ -79,11 +79,6 @@ def main():
 
   write_outputs(current_dir, data)
 
-
-
-
-
-
 if __name__ == "__main__":
   print("Running config-generator from config_generator.py")
   main()

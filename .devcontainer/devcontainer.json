@@ -13,8 +13,8 @@
         "dbaeumer.vscode-eslint",
         "davidanson.vscode-markdownlint",
         "streetsidesoftware.code-spell-checker",
-        "GitHub.copilot",
-        "GitHub.copilot-chat",
+        "Codeium.codeium",
+        "Supermaven.supermaven",
         "yzhang.markdown-all-in-one",
         "formulahendry.code-runner",
         "eeyore.yapf"
